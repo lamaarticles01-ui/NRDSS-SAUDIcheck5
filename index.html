@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NRDSS – Nuwakot Rasuwa Dhading Samaj Saudi Arabia</title>
+
+  <meta name="description"
+    content="Official Portal for NRDSS - Nuwakot Rasuwa Dhading Samaj Saudi Arabia. Community memberships, instant QR ID cards, events, notices, gallery, and administrative management." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- QRCode.js Generator CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <!-- HTML5 QR Code Camera Scanner Library CDN -->
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+
+  <!-- jsPDF & html2canvas for Instant PDF & PNG ID Card Exports -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Custom Theme Stylesheet -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Mountain Silhouette Ambient Layer -->
+  <div class="mountain-bg"></div>
+
+  <!-- Main React/SPA Application Root Container -->
+  <div id="app-root" class="relative z-10 min-h-screen flex flex-col"></div>
+
+  <!-- Toast Notification Portal -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-50 flex flex-col gap-3 max-w-sm pointer-events-none"></div>
+
+  <!-- Master Application Engine -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
